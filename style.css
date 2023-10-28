@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    
+    background-color: black;
+    margin: 15px;
+    color: white;
+    position: relative;
+    flex-direction: column;
+    min-height: 94vh;
+    display: flex;
+}
+
+.profileInfo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    font-size: x-large;
+}
+
+.username{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.username button{
+    border-radius: 15px;
+    padding: 8px;
+    background-color: rgb(40, 40, 40);
+    color: #D3D3D3;
+    border: none;
+    font-size: xx-small;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid rgb(113, 113, 113);
+    padding: 1rem 3rem;
+}
+
+.bottomNav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.bottomNav i{
+    cursor: pointer;
+}
+
+.profilePic{
+    margin: -1rem;
+}
+
+.profilePic img{
+    height: 4rem;
+    margin: 1rem ;
+    border-radius: 100px;
+}
+
+
+.profileButton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+button{
+    background-color: black; /* Background color */
+    color: #fff; /* Text color */
+    border: 1px solid rgb(47, 47, 47);
+    padding: 5px 70px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.image{
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+}
+.image img{
+    height: 2.5rem;
+    margin: 1rem;
+    border-radius: 100px;
+
+}
+
+.thread-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.threads{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.caption{
+    margin-top: 1rem;
+}
+
+.captionandpic{
+    display: flex;
+    padding-bottom:15px ;
+}
+
+.captionandpic p{
+    margin: auto;
+    padding: 15px;
+    
+}
+
+.thread_post{
+    display: flex;
+    flex-direction: column;
+}
+.thread_post img{
+    height: 20rem;
+}
